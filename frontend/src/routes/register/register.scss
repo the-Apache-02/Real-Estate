@@ -1,0 +1,58 @@
+.registerPage {
+    display: flex;
+    height: 100%;
+
+    .formContainer {
+        flex: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            input {
+                padding: 20px;
+                border: 1px solid gray;
+                border-radius: 5px;
+            }
+
+            button {
+                padding: 20px;
+                background-color: teal;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+
+            span {
+                color: rgba(255, 0, 0, 0.591);
+            }
+
+            a {
+                font-size: 14px;
+                color: gray;
+                border-bottom: 1px solid gray;
+                width: max-content;
+            }
+        }
+
+    }
+
+    .imgContainer {
+        flex: 2;
+        background-color: #f3fcf5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 100%
+        }
+    }
+}
